@@ -38,6 +38,12 @@
     },
     "featured": {
       "type": "boolean"
+    },
+    "min": {
+      "type": "biginteger"
+    },
+    "max": {
+      "type": "biginteger"
     }
   }
 }

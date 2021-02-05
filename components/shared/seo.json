@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "name": "seo",
+    "icon": "arrow-alt-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "richtext"
+    },
+    "shareImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
