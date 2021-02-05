@@ -1,39 +1,45 @@
 {
-  "name": "my-project",
-  "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
-  "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi"
-  },
-  "devDependencies": {},
-  "dependencies": {
-    "nodemailer": "^6.4.17",
-    "strapi": "3.3.4",
-    "strapi-admin": "3.3.4",
-    "strapi-connector-mongoose": "3.3.4",
-    "strapi-plugin-content-manager": "3.3.4",
-    "strapi-plugin-content-type-builder": "3.3.4",
-    "strapi-plugin-documentation": "3.3.4",
-    "strapi-plugin-email": "3.3.4",
-    "strapi-plugin-upload": "3.3.4",
-    "strapi-plugin-users-permissions": "3.3.4",
-    "strapi-provider-upload-aws-s3": "^3.4.0",
-    "strapi-utils": "3.3.4",
-    "stripe": "^8.129.0"
-  },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "b0851458-b390-4405-9959-7c4cc1276074"
-  },
-  "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": ">=6.0.0"
-  },
-  "license": "MIT"
+    "name": "my-project",
+    "private": true,
+    "version": "0.1.0",
+    "description": "A Strapi application",
+    "scripts": {
+        "develop": "strapi develop",
+        "start": "strapi start",
+        "build": "strapi build",
+        "strapi": "strapi"
+    },
+    "devDependencies": {},
+    "dependencies": {
+        "cloudinary": "^1.24.0",
+        "dotenv": "^8.2.0",
+        "nodemailer": "^6.4.17",
+        "strapi": "3.4.6",
+        "strapi-admin": "3.4.6",
+        "strapi-connector-mongoose": "3.4.6",
+        "strapi-plugin-content-manager": "3.4.6",
+        "strapi-plugin-content-type-builder": "3.4.6",
+        "strapi-plugin-documentation": "3.4.6",
+        "strapi-plugin-email": "3.4.6",
+        "strapi-plugin-graphql": "^3.4.6",
+        "strapi-plugin-upload": "3.4.6",
+        "strapi-plugin-users-permissions": "3.4.6",
+        "strapi-provider-upload-cloudinary": "^3.4.6",
+        "strapi-utils": "3.4.6",
+        "stripe": "^8.129.0"
+    },
+    "files": [
+        "providers"
+    ],
+    "author": {
+        "name": "A Strapi developer"
+    },
+    "strapi": {
+        "uuid": "b0851458-b390-4405-9959-7c4cc1276074"
+    },
+    "engines": {
+        "node": ">=10.16.0 <=14.x.x",
+        "npm": ">=6.0.0"
+    },
+    "license": "MIT"
 }

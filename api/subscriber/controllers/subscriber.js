@@ -22,9 +22,9 @@ module.exports = {
                         pass: process.env.GMAIL_PASSWORD, // generated ethereal password
                     }
                 })
-                
+
                 const mailOptions = {
-                    from: 'Unique essense stores',
+                    from: 'no-reply@fs-rate.com',
                     to: `${Email}`,
                     subject: 'Welcome',
                     text: `Hey @${Email}, Thanks for subscribing to our NewsLetter`
